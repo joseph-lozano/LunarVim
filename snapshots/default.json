@@ -113,8 +113,8 @@
   "toggleterm.nvim": {
     "commit": "8f302c9"
   },
-  "tokyonight.nvim": {
-    "commit": "29e2c68"
+  "lunar.nvim": {
+    "commit": "29eedf7"
   },
   "vim-illuminate": {
     "commit": "0603e75"
