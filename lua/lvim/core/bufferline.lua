@@ -84,7 +84,7 @@ M.config = function()
       max_name_length = 18,
       max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
       truncate_names = true, -- whether or not tab names should be truncated
-      tab_size = 18,
+      tab_size = 24,
       diagnostics = "nvim_lsp",
       diagnostics_update_in_insert = false,
       diagnostics_indicator = diagnostics_indicator,
@@ -133,7 +133,7 @@ M.config = function()
       enforce_regular_tabs = false,
       always_show_bufferline = false,
       hover = {
-        enabled = false, -- requires nvim 0.8+
+        enabled = true, -- requires nvim 0.8+
         delay = 200,
         reveal = { "close" },
       },

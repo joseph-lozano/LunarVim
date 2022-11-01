@@ -1,11 +1,12 @@
 local M = {}
 
 local function get_pickers(actions)
+  local previewers = require "telescope.previewers"
   return {
     find_files = {
-      theme = "dropdown",
-      hidden = true,
-      previewer = false,
+      -- theme = "dropdown",
+      -- hidden = true,
+      -- previewer = false,
     },
     live_grep = {
       --@usage don't include the filename in the search results
@@ -34,9 +35,9 @@ local function get_pickers(actions)
       show_moon = true,
     },
     git_files = {
-      theme = "dropdown",
-      hidden = true,
-      previewer = false,
+      -- theme = "dropdown",
+      -- hidden = true,
+      -- previewer = false,
       show_untracked = true,
     },
     lsp_references = {
